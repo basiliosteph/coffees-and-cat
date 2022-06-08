@@ -167,7 +167,7 @@
     </div>
 
     <div style="padding: 10px; ">
-        <input class="btn btn-success" type="submit" value="Confirm Order">
+        <input class="btn btn-success" type="submit" value="Confirm Order" onclick="message()">
         <button id="cancel" type="button" class="btn btn-danger"> Cancel </button>
     </div>
 
@@ -197,6 +197,12 @@
 
 
 
+</script>
+
+<script>
+      function message(){
+        alert ("We appreciate your support of our little business. The cats are eagerly awaiting your arrival at the shop! ฅ^•ﻌ•^ฅ");
+      }
 </script>
 
 
