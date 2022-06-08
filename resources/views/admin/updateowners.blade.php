@@ -39,7 +39,7 @@
             </div>
 
             <div>
-                <input type="submit" value="Update Owner">
+                <input class="btn btn-primary" type="submit" value="Update Owner">
             </div>
 
         </form>
