@@ -29,7 +29,7 @@
                         </div>
 
                         <input type="number" name="quantity" min="1" value="0" style="width: 80px;">
-                        <input type="submit" value="Add to Cart">
+                        <input type="submit" value="Add to Cart" class="btn btn-outline-info">
                     </div>
                     </form>
 

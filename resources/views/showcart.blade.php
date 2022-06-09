@@ -110,7 +110,7 @@
     <!-- ***** Header Area End ***** -->
 
     <div id="top">
-    <table align="center" bgcolor="#DECA87">
+    <table align="center" bgcolor="#EDB93D" style="color: white;">
         <tr align="center">
             <th style="padding: 30px">    Food Name     </th>
             <th style="padding: 30px">      Price       </th>
@@ -134,7 +134,7 @@
 
     @foreach($data2 as $data2)
     <tr style="position: relative; top: -60px; right: -375px;">
-    <td><a href="{{ url('/remove', $data2->id) }}" class="btn btn-warning">  Remove    </td>
+    <td><a href="{{ url('/remove', $data2->id) }}" class="btn btn-info">  Remove    </td>
     </tr>
     @endforeach
 
@@ -151,24 +151,24 @@
 
     <div id="information" align="center" style="padding: 10px; display: none;">
 
-    <div style="padding: 10px; ">
+    <div style="padding: 10px; color: black">
         <label> Name </label>
         <input type="text" name="name" placeholder="Enter your name">
     </div>
 
-    <div style="padding: 10px; ">
+    <div style="padding: 10px; color: black">
         <label> Phone Number </label>
         <input type="number" name="phone" placeholder="Enter your number">
     </div>
 
-    <div style="padding: 10px; ">
+    <div style="padding: 10px; color: black">
         <label> Address </label>
         <input type="text" name="address" placeholder="Enter your address">
     </div>
 
-    <div style="padding: 10px; ">
-        <input class="btn btn-success" type="submit" value="Confirm Order" onclick="message()">
-        <button id="cancel" type="button" class="btn btn-danger"> Cancel </button>
+    <div style="padding: 10px; color: black">
+        <input class="btn btn-outline-success" type="submit" value="Confirm Order" onclick="message()">
+        <button id="cancel" type="button" class="btn btn-outline-danger"> Cancel </button>
     </div>
 
 
