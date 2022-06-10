@@ -31,7 +31,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{ url('/users') }}">
               <span class="menu-icon">
-                <i class="mdi mdi-speedometer"></i>
+                <i class="mdi mdi-folder-account"></i>
               </span>
               <span class="menu-title">Users</span>
             </a>
@@ -40,7 +40,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{ url('/foods') }}">
               <span class="menu-icon">
-                <i class="mdi mdi-playlist-play"></i>
+                <i class="mdi mdi-food"></i>
               </span>
               <span class="menu-title">Foods</span>
             </a>
@@ -48,7 +48,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{ url('/viewowners') }}">
               <span class="menu-icon">
-                <i class="mdi mdi-table-large"></i>
+                <i class="mdi mdi-account-group"></i>
               </span>
               <span class="menu-title">Owners</span>
             </a>
@@ -56,7 +56,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{ url('/viewdetails') }}">
               <span class="menu-icon">
-                <i class="mdi mdi-chart-bar"></i>
+                <i class="mdi mdi-account-details"></i>
               </span>
               <span class="menu-title">Details</span>
             </a>
@@ -64,7 +64,7 @@
           <li class="nav-item menu-items">
             <a class="nav-link" href="{{ url('/orders') }}">
               <span class="menu-icon">
-                <i class="mdi mdi-chart-bar"></i>
+                <i class="mdi mdi-cart"></i>
               </span>
               <span class="menu-title">Orders</span>
             </a>
